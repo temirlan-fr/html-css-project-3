@@ -1,0 +1,150 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../img/pr3-forest.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tolyk {
+    color: white;
+    width: 420px;
+    padding: 70px 65px 65px 75px;
+    border-radius: 70px;
+    border: 2px whitesmoke solid;
+    backdrop-filter: blur(15px);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.aty {
+    position: relative;
+    margin: 25px 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+.aty input{
+    font-size: 15px;
+    width: 87%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    color: white;
+    padding: 0 45px 0 15px;
+}
+
+.parol {
+    position: relative;
+    margin: 25px 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+.parol input{
+    font-size: 15px;
+    width: 87%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    color: white;
+    padding: 0 45px 0 15px;
+}
+
+.aty i {
+    position: absolute;
+    right: 12px ;
+    top: 48.6%;
+    transform: translateY(-50%);
+}
+
+.parol i {
+    position: absolute;
+    right: 12px ;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.zabyl-parol {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: -10px;
+    margin: 0 5px;
+}
+
+.zabyl-parol input {
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+
+.zabyl-parol a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.zabyl-parol a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.register {
+    text-align: center;
+    margin: 8px 0;
+}
+
+.register a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+.aty input::placeholder {
+    color: white;
+}
+.parol input::placeholder {
+    color: white;
+}
+
+
+
